@@ -5,6 +5,7 @@ from .. import utils
 
 class UtilsTests(unittest.TestCase):
     
+    
     def test_translate(self):
         
         cases = [
