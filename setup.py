@@ -1,15 +1,15 @@
-from setuptools import setup
+from setuptools import find_packages, setup
 
 
 setup(
     name='harold_packaging_example',
-    version='0.1.4',
+    version='0.1.5',
     description='Simple example of Python packaging.',
     url='https://github.com/HaroldMills/Python-Packaging-Example',
     author='Harold Mills',
     author_email='harold.mills@gmail.com',
     license='MIT',
-    packages=['harold_packaging_example', 'harold_packaging_example.util'],
+    packages=find_packages(exclude=['tests']),
     install_requires=['pyyaml'],
     entry_points={
         'console_scripts': [
