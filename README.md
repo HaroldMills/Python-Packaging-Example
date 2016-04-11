@@ -13,3 +13,10 @@ Some useful documentation:
 
     http://python-packaging.readthedocs.org/en/latest/index.html
     https://www.pypa.io/en/latest/
+    
+## Building for and Uploading to Anaconda Cloud
+
+Some useful commands for building and uploading a package:
+
+    conda skeleton pypi --pypi-url https://testpypi.python.org/pypi harold_packaging_example
+    anaconda upload C:\Users\Harold\Miniconda3\conda-bld\win-64\harold_packaging_example-0.1.3-py35_0.tar.bz2
