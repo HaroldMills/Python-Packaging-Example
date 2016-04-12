@@ -30,7 +30,6 @@ requirements:
   build:
     - python
     - setuptools
-    - pyyaml
 
   run:
     - python

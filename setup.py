@@ -9,7 +9,8 @@ setup(
     author='Harold Mills',
     author_email='harold.mills@gmail.com',
     license='MIT',
-    packages=find_packages(),
+    packages=find_packages(
+        exclude=['tests', 'tests.*', '*.tests.*', '*.tests']),
     install_requires=['pyyaml'],
     entry_points={
         'console_scripts': [
