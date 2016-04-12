@@ -1,3 +1,2 @@
-recursive-include harold_packaging_example/*.yaml
-prune dir harold_packaging_example/tests
-prune dir harold_packaging_example/*/tests
+recursive-include harold_packaging_example *.yaml
+prune harold_packaging_example/util/tests
