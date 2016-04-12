@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='harold_packaging_example',
-    version='0.1.7',
+    version='0.1.8',
     description='Simple example of Python packaging.',
     url='https://github.com/HaroldMills/Python-Packaging-Example',
     author='Harold Mills',
