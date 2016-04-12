@@ -1,1 +1,3 @@
-include harold_packaging_example/util/translations.yaml
+recursive-include harold_packaging_example/*.yaml
+prune dir harold_packaging_example/tests
+prune dir harold_packaging_example/*/tests
